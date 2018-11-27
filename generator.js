@@ -27,16 +27,16 @@ function generateHairData() {
 */
 
 function generateStaytime(){
-	randomData("staytime",staytime_data);
+	staytime_data = "隔日";
 }
 
 
 function generatefujinum(){
-	randomData("fujinum",fujinum_data);
+	fujinum_data = "不存在的，以后可能会有，嗯嗯";
 }
 
 function generateSuperPower(){
-	randomData("superpowerdata",Superpower_data);
+	Superpower_data = "对你好";
 }
 
 function generateSkin() {
@@ -79,10 +79,10 @@ function generateEyes() {
     text1.style.backgroundColor = newColor;
 }
 function generateAttribute() {
-    randomData("attribute",Attribute_data);
+    Attribute_data = "沈其慧爱我";
 }
 function generateCharacter() {  
-    randomData("character",Character_data);
+    Character_data = "喜欢沈其慧";
 }
 
 function normalDistribution(u, v) {
