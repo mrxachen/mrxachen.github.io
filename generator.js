@@ -44,24 +44,24 @@ function generateSkin() {
 }
 
 function generateBody() {
-    var height = normalDistribution(180, 5);
+    var height = normalDistribution(173, 0);
     height = Math.round(height);
     var text1 = document.getElementById("height");
     text1.innerHTML=height;
 	
-    var bmi = normalDistribution(21, 1);
+    var bmi = normalDistribution(23, 0);
     var weight = Math.round(bmi*(height/100)*(height/100));
     var text2 = document.getElementById("weight");
 	text2.innerHTML = weight;
 		
-	var jier = normalDistribution(16, 5)
+	var jier = normalDistribution(18, 2)
 	jier = Math.round(jier);
 	var text3 = document.getElementById("jierlength");
 	text3.innerHTML = jier;
 
 }
 function generateAge() {
-    var gH = Math.round(normalDistribution(20, 2));
+    var gH = Math.round(normalDistribution(24, 0));
     var text1 = document.getElementById("age");
     text1.innerHTML = gH;    
 }
