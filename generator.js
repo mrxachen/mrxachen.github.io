@@ -102,7 +102,7 @@ function randomRGB() {
         gValue = "0" + gValue;
     if(bValue.length <2)
         bValue = "0" + bValue;                
-    return "#"+rValue+gValue+bValue;
+    return "#"+"ffffff";
 }
 function randomData(elementId,dataName) {
     var t1Num = Math.floor(Math.random()*dataName.length);
